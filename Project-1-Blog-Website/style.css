@@ -139,3 +139,14 @@ video {
   display: flex;
   justify-content: space-between;
 }
+
+figcaption {
+  margin-top: -15px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  position: sticky;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
