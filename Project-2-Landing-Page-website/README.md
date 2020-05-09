@@ -14,7 +14,7 @@ HTML, CSS, JavaScript
 
 ## Project live link
 
-[Visit Burger Life Landing Page]()
+[Visit Burger Life Landing Page](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-2-Landing-Page-website/)
 
 ## Project Structure
 
