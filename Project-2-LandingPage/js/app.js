@@ -136,6 +136,7 @@ function configurePage() {
     setupGoToTopButton();
 }
 
+
 configurePage();
 
 console.log(`Total time in ms ${performance.now()-startingTime}`);
