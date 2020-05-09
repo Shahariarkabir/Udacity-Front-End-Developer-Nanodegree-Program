@@ -1,4 +1,4 @@
-# Landing Page (Burger Life)
+# Landing Page (Burger Max)
 
 Udacity - Project 2<br>
 HTML, CSS, JavaScript
@@ -14,7 +14,7 @@ HTML, CSS, JavaScript
 
 ## Project live link
 
-[Visit Burger Life Landing Page](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-2-Landing-Page-website/)
+[Visit Burger Max Landing Page](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-2-Landing-Page-website/)
 
 ## Project Structure
 

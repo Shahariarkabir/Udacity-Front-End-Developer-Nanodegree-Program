@@ -1,5 +1,4 @@
-let meals = [
-    {
+let meals = [{
         id: "meal_1",
         title: "Meal 1",
         price: 8.50,
@@ -33,12 +32,10 @@ let meals = [
     }
 ];
 
-let homePage = [
-    {
-        id: 'home',
-        title: 'Home',
-        pageTitle: "Welcome to Burger <span>Life</span>",
-        pageSubTitle: "Choose from <span class='steps-nr'></span> great meals",
-        bgImage: "home.jpg"
-    }
-];
+let homePage = [{
+    id: 'home',
+    title: 'Home',
+    pageTitle: "Welcome to Burger <span>MAX</span>",
+    pageSubTitle: "Choose from <span class='steps-nr'></span> great meals",
+    bgImage: "home.jpg"
+}];
