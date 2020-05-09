@@ -37,7 +37,7 @@ let homePage = [
     {
         id: 'home',
         title: 'Home',
-        pageTitle: "Welcome to Burger <span>MAX</span>",
+        pageTitle: "Welcome to Burger <span>Life</span>",
         pageSubTitle: "Choose from <span class='steps-nr'></span> great meals",
         bgImage: "home.jpg"
     }
