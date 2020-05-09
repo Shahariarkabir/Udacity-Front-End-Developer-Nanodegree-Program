@@ -136,18 +136,6 @@ function configurePage() {
     setupGoToTopButton();
 }
 
-var elmnt = document.getElementById("content");
-
-function scrollToTop() {
-    elmnt.scrollIntoView(true); // Top
-}
-
-function scrollToBottom() {
-    elmnt.scrollIntoView(false); // Bottom
-}
-
-
-
 configurePage();
 
 console.log(`Total time in ms ${performance.now()-startingTime}`);
