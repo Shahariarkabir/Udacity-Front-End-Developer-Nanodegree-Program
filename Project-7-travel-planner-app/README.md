@@ -22,3 +22,16 @@ Also, the app allows you to add multiple destination/cities in one trip.
 2. In the root run the command `npm install`;
 3. For development environment run the command `npm run dev`;
 4. For production `npm run build`;
+
+## Project review
+
+> Dear Student!<br>
+> Excellent work with the project.<br>
+> The sumission looks good and has all the functionalities needed.:clap:<br>
+> The code is easy to read and understand due to the presence of comments.:tada:<br>
+> Work style is really very nice and shows that you have a good understanding of all this. Keep it up!<br>
+> Good luck with the future projects.
+
+Full project review: [click here](https://drive.google.com/open?id=1HgeAsXr1IaB-K0yKF3wY0xFCJ0tWmvQ0)
+
+#### Thanks, Kabir ;
