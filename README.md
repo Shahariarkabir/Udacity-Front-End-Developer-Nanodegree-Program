@@ -18,7 +18,7 @@ The goal of the Front End Web Developer Nanodegree program is to equip learners 
 
 [Project-4-natural-language-processing](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-4-natural-language-processing/dist/)
 
-[Project-7-travel-planner-app](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-7-travel-planner-app/dist/)
+[Project-5-travel-planner-app](https://shahariarkabir.github.io/Udacity-Front-End-Developer-Nanodegree-Program/Project-5-travel-planner-app/dist/)
 
 # Certificate Link
 
