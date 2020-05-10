@@ -50,8 +50,6 @@ The browser automatically will be opened on http://localhost:8080
 > Work style is really very nice and shows that you have a good understanding of all this. Keep it up!<br>
 > Good luck with the future projects.
 
-Full project review: [click here](https://drive.google.com/file/d/1oSktGzejpGYWgOIpduQalpLBU4AGBw4O/view?usp=sharing)
-
-#### Thanks, Nick ;)
+Full project review: [click here](https://drive.google.com/open?id=1XEAh5QoYRcj_YSwHvraXP4I52vwNsXdg)
 
 #### Thanks, Kabir ;

@@ -22,3 +22,16 @@ Insert the valid US zip code and some fillings/description and click the button 
 1. Clone the repo or download the files;
 2. Run the command in the root `node server.js`(you should have the Node.js installed on your local machine);
 3. The server should start on http://localhost:8000/.
+
+## Project review
+
+> Dear Student!<br>
+> Excellent work with the project.<br>
+> The sumission looks good and has all the functionalities needed.:clap:<br>
+> The code is easy to read and understand due to the presence of comments.:tada:<br>
+> Work style is really very nice and shows that you have a good understanding of all this. Keep it up!<br>
+> Good luck with the future projects.
+
+Full project review: [click here](https://drive.google.com/open?id=1oSktGzejpGYWgOIpduQalpLBU4AGBw4O)
+
+#### Thanks, Kabir ;
