@@ -1,0 +1,28 @@
+.social-buttons {
+    display: flex;
+
+    .s-icon {
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 0 5px;
+        background-size: contain;
+        background-position: center center;
+
+        @media (min-width:768px){
+            margin: 0 0 0 10px;
+        }
+
+        &.fb {
+            background-image: url("../assets/fb.svg");
+        }
+
+        &.in {
+            background-image: url("../assets/in.svg");
+        }
+
+        &.gh {
+            background-image: url("../assets/gh.svg");
+        }
+    }
+}

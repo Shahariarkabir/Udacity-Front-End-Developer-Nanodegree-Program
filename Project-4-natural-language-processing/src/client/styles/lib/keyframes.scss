@@ -1,0 +1,29 @@
+@keyframes animtedOpacity{
+    0% {
+        opacity: 0;
+        }
+    100% {
+        transform: rotate(xx);
+        opacity: 1;
+        }
+}
+
+@keyframes animtedWidth{
+    0% {
+        width: 50px;
+        opacity: 0;
+        }
+    100% {
+        width: 100%;
+        opacity: 1;
+        }
+}
+
+@keyframes paddingToInput{
+    0% {
+        padding: 0;
+        }
+    100% {
+        padding: 0 55px 0 15px;
+    }
+}

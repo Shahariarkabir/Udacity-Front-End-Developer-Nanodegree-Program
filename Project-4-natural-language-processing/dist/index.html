@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Natural Language Processing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+                // Check that service workers are supported
+                if ('serviceWorker' in navigator) {
+                    // Use the window load event to keep the page load performant
+                    window.addEventListener('load', () => {
+                        navigator.serviceWorker.register('./service-worker.js');
+                    });
+                }
+        </script>
+    <link href="main.css" rel="stylesheet"></head>
+    <body>
+        <header>
+           <div class="header container">
+               <a href="/" class="logo"></a>
+           </div>
+        </header>
+        <main>
+            <section>
+                    <div class="main-content container">
+                        <div class="form-block">
+                            <h1 class="form-title">Add your Post URL in the below field</h1>
+                            <div class="form-note">*The URL should start with https:// or http://</div>
+                            <div class="form-main">
+                                <input id="url" type="text" name="url" class="input-text">
+                                <button id="callApi" class="btn" title="Analyse the web page"></button>
+                            </div>
+                        </div>
+                        <div id="result-blocks" class="result-blocks hide">
+                            <!-- the content will be added here by JS -->
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer flex-between-center container">
+                <div class="copyright">Natural Language Processing &copy; 2019</div>
+                <ul class="social-buttons">
+                    <li><a class="s-icon fb" target="_blank" title="Facebook" href="https://www.facebook.com/nicojuhari"></a></li>
+                    <li><a class="s-icon in" target="_blank" title="Linkedin" href="https://www.linkedin.com/in/nicojuhari/"></a></li>
+                    <li><a class="s-icon gh" target="_blank" title="GitHub" href="https://github.com/nicojuhari"></a></li>
+                </ul>
+            </div>
+        </footer>
+        <div id="loading-gif" class="full-screen hide">
+           <div class="loading-gif"></div>
+        </div>
+        <div id="error-message" class="full-screen hide">
+            <div class="em-wrapper">
+                <div class="em-close">&times;</div>
+                <div class="em-text">
+                    <!-- the error message will be added here dynamically -->
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="main.js"></script></body>
+</html>

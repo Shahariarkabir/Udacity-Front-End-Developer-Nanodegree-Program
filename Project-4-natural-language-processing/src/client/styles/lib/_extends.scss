@@ -1,0 +1,24 @@
+/* extends */
+%flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+%flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+%grid-2columns {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1.2em;
+}
+
+%grid-1column {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:1.2em;
+}

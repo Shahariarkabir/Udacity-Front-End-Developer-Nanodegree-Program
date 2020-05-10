@@ -1,0 +1,25 @@
+@import "social-buttons.scss";
+
+footer {
+    background-color: $color-black;
+    color: $color-white;
+    
+
+    .footer {
+        @extend %flex-between-center;
+        flex-direction: column;
+        height: 100px;
+
+        @media (min-width:768px){
+            flex-direction: row;
+        }
+
+        .copyright {
+            margin-bottom: 1.2em;
+
+            @media (min-width:768px){
+                margin-bottom: 0;
+            }
+        }
+    }
+}

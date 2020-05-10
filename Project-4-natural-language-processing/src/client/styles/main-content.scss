@@ -1,0 +1,18 @@
+@import "form-block.scss";
+@import "result-blocks.scss";
+
+main {
+    background-image: url('../assets/bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-content {
+    min-height: calc(100vh - 100px);
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    @extend %flex-center-center;
+    flex-direction: column;
+}

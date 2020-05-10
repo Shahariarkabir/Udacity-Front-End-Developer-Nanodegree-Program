@@ -1,0 +1,15 @@
+@import "block.scss";
+
+.result-blocks {
+    
+        @extend %grid-1column;
+        animation: animtedOpacity 1s 0s linear;
+
+        @media (min-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &.hide {
+            display: none;
+        }
+}

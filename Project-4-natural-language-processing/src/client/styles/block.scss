@@ -1,0 +1,81 @@
+.block{
+    
+    background-color: rgba($color: $color-white, $alpha: 0.8);
+    border-radius: 25px;
+    padding: 1.2em;
+    
+    &-title {
+        text-align: center;
+        line-height: 1.7;
+        margin-bottom: 1.2em;
+    }
+    
+    .data {
+        &-icon {
+            @extend %flex-center-center;
+            width: 60px;
+            border: 2px solid $color-secondary;
+            height: 60px;
+            background-color:rgba($color: $color-secondary, $alpha: 0.5);
+            color: $color-secondary;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        &-row {
+            display: flex;
+            margin-bottom: 1.2em;
+        }
+
+        &-data {
+            margin-left: 1.2em;
+        }
+
+        &-label {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+
+        &-value {
+            padding-left: 10px;
+            font-weight: 700;
+            color: $color-primary;
+            text-transform: capitalize;
+        }
+
+        &-image {
+            text-align: center;
+            margin-bottom: 1.2em;
+        }
+
+        &-title{ 
+            margin-bottom: 1.2em;
+            font-size: 1.2em;
+        }
+
+        &-text {
+            margin-bottom: 1.2em;
+        }
+
+        &-cta {
+            text-align: center;
+
+            a{
+                @extend %flex-center-center;
+                height: 40px;
+                padding: 5px 10px;
+                color: $color-primary;
+                font-weight: 700;
+                border: 1px solid $color-primary;
+                border-radius: 20px;
+
+                &:hover {
+                    background-color: $color-secondary;
+                    border: 1px solid $color-secondary;
+                    color:  $color-white;
+                }
+            }
+        }
+    }
+}
