@@ -41,4 +41,4 @@ To be able to use the app, you should repalce in the src/server/index.js file th
 If you want to run the app in development mode, in the root run: `npm run build-dev`.
 The browser automatically will be opened on http://localhost:8080
 
-#### Thanks, Kabir ;)
+#### Thanks, Kabir ;
