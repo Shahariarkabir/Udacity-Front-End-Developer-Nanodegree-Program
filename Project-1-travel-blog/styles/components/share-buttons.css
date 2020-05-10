@@ -1,0 +1,47 @@
+.share-buttons {
+    position: absolute;
+    top: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.share-buttons .share-icon {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.share-buttons .share-icon:after{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+
+}
+
+.share-buttons .share-icon.insta {
+    background-image: url("../../assets/icons/insta.svg");
+}
+
+.share-buttons .share-icon.tw {
+    background-image: url("../../assets/icons/tw.svg");
+}
+
+.share-buttons .share-icon.pt {
+    background-image: url("../../assets/icons/pt.svg");
+}

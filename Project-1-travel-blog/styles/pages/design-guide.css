@@ -1,0 +1,23 @@
+.dg-colors .color {
+    text-align: center;
+    margin: 0 1.2px;
+    
+}
+.dg-colors .color span {
+    display:block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.dg-colors .color-primary span {
+    background-color: #e77300;
+}
+
+.dg-colors .color-secondary span {
+    background-color: #01748f;
+}
+
+.dg-colors .color-third span {
+    background-color: #00ad2d;
+}

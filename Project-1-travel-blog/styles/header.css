@@ -1,0 +1,41 @@
+header {
+    background-color: #01748f;
+}
+.header {
+    height: 90px;
+    margin: auto;
+}
+
+/*Logo*/
+
+.logo span {
+    display: block;
+    background-image: url("../assets/icons/logo.svg");
+    background-size: contain;
+    width: 40px;
+    height: 40px; 
+}
+
+/*Navigation*/
+.desktop-nav {
+    display: flex;
+}
+
+.desktop-nav li a {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.desktop-nav li a:hover {
+    opacity: .7;
+}
+
+
+@media (min-width:768px) {
+    
+}
+
+@media (max-width:767px) {
+    
+}

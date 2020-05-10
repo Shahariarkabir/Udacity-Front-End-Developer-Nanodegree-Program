@@ -1,0 +1,13 @@
+.aside-block {
+    margin-bottom: 1.2em;
+    background-color: #fff;
+    position: relative;
+}
+
+.aside-block-title {
+    text-align: center;
+    font-size: 24px;
+    color: #00748f;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}

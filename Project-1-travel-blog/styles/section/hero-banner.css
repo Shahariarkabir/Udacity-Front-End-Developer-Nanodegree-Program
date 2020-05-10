@@ -1,0 +1,30 @@
+.hero-banner {
+    background-image: url("../../assets/images/home-page-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-banner .banner-title {
+    text-transform: uppercase;
+}
+
+.hero-banner .banner-title span {
+    text-transform: initial;
+    font-weight: 300
+}
+
+.hero-banner .banner-subtitle {
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media (min-width:768px){
+    .hero-banner {
+        background-image: url("../../assets/images/home-page-bg.jpg");
+        background-position: right bottom;
+    }
+}

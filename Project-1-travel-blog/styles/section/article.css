@@ -1,0 +1,33 @@
+.article-image img {
+    width: 100%;
+}
+.article-title {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color:#01748f;
+}
+
+.article-text p {
+    margin: 1.6em 0;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.article-text h3 {
+    font-size: 24px;
+    color: #444;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.article-meta {
+    color: #afafaf;
+    display: flex;
+    margin-bottom: 1.2em;   
+}
+
+.article-meta > * {
+    margin-right: 3px;
+}

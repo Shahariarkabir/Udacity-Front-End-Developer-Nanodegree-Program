@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kabir's Travel Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/pages/home.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="home-page">
+        <div class="header container flex-between-center">
+            <a href="index.html" title="Kabir's blog">
+                <div class="logo">
+                    <span class="logo-icon"></span>
+                </div>
+            </a>
+            <nav>
+                <ul class="desktop-nav desktop-only">
+                    <li class="nav-item"><a href="index.html" title="Home Page">Home</a></li>
+                    <li class="nav-item"><a href="post-page.html" title="Blog Page">Blog</a></li>
+                    <li class="nav-item"><a href="design-guide.html" title="Design Guide">Design Guide</a></li>
+                </ul>
+                <ul class="mobile-nav mobile-only">
+                    <div class="burger-icon">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-home-page">
+        <section class="hero-banner flex-center-center">
+            <div class="container">
+                <h1 class="banner-title">Kabir's Travel <span>Blog!</span></h1>
+                <p class="banner-subtitle"><em>Adventurer & Photographer</em></p>
+            </div>
+        </section>
+        <section class="featured-post">
+            <div class="fp-content box-shadow">
+                <div class="fp-image">
+                    <div class="share-buttons">
+                        <div class="share-icon insta" title="Share on Instagram"></div>
+                        <div class="share-icon tw" title="Share on Twitter"></div>
+                        <div class="share-icon pt" title="Save on Pinterest"></div>
+                    </div>
+                </div>
+                <div class="fp-text">
+                    <div class="fp-top">
+                        <h3 class="fp-title">My last trip...</h3>
+                        <p class="fp-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, obcaecati
+                            quo tempora fuga, at ut temporibus sequi impedit quae?</p>
+                    </div>
+                    <a href="#" class="fp-cta btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section class="recent-travels">
+            <div class="rt-content container">
+                <h2 class="section-title">Recent Travels</h2>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <div class="rt-items">
+                    <div class="rt-item item-one box-shadow">
+                        <a href="#" title="Blog Post">
+                            <div class="rt-image"></div>
+                        </a>
+                        <div class="rt-item-content">
+                            <a href="#" class="rt-title">Miami</a>
+                            <a href="#" class="rt-category meta-link">USA</a>
+                            <p class="rt-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+                                repudiandae quis nam deleniti! Ut recusandae ab, atque aperiam, dolores nulla similique
+                                minus dicta natus iure quia iusto vitae hic nihil.</p>
+                            <a href="#" class="btn rt-cta">Read more</a>
+                        </div>
+                    </div>
+                    <div class="rt-item item-two box-shadow">
+                        <a href="#" title="Blog Post">
+                            <div class="rt-image"></div>
+                        </a>
+                        <div class="rt-item-content">
+                            <a href="#" class="rt-title">Tokyo</a>
+                            <a href="#" class="rt-category meta-link">Japan</a>
+                            <p class="rt-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+                                repudiandae quis nam deleniti! Ut recusandae ab, atque aperiam, dolores nulla similique
+                                minus dicta natus iure quia iusto vitae hic nihil.</p>
+                            <a href="#" class="btn rt-cta">Read more</a>
+                        </div>
+                    </div>
+                    <div class="rt-item item-three box-shadow">
+                        <a href="#" title="Blog Post">
+                            <div class="rt-image"></div>
+                        </a>
+                        <div class="rt-item-content">
+                            <a href="#" class="rt-title">Moscow</a>
+                            <a href="#" class="rt-category meta-link">Russia</a>
+                            <p class="rt-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+                                repudiandae quis nam deleniti! Ut recusandae ab, atque aperiam, dolores nulla similique
+                                minus dicta natus iure quia iusto vitae hic nihil.</p>
+                            <a href="#" class="btn rt-cta">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="travel-gallery">
+            <div class="tg-content container">
+                <h2 class="section-title">Travel Gallery</h2>
+                <div class="section-content tg-grid">
+                    <div class="img_one box-shadow-hover"></div>
+                    <div class="img_two box-shadow-hover"></div>
+                    <div class="img_three box-shadow-hover"></div>
+                    <div class="img_four box-shadow-hover"></div>
+                    <div class="img_five box-shadow-hover"></div>
+                </div>
+                <a href="#" class="btn tg-cta">View More</a>
+                <div class="section-note">Photo by <a href="https://unsplash.com/@jakobowens1" target="_blank"
+                        rel="nofollow">Jakob Owens</a> on Unsplash</div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="sub-content container">
+                <h2 class="section-title">Don't worry, be Subscribed</h2>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="sub-form">
+                    <form method="POST">
+                        <input type="email" name="email" placeholder="Enter your email" />
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer flex-between-center container">
+            <div class="copyright">
+                Kabir's Travel Blog - 2020
+            </div>
+            <ul class="social-links">
+                <li><a class="s-icon fb" target="_blank" title="Facebook"
+                        href="https://www.facebook.com/kabir7days"></a></li>
+                <li><a class="s-icon in" target="_blank" title="Linkedin"
+                        href="https://www.linkedin.com/in/Shahariarkabir/"></a></li>
+                <li><a class="s-icon gh" target="_blank" title="GitHub" href="https://github.com/Shahariarkabir"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+
+
+/* Global Elements Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-areas: "header" "main" "footer";
+    height: 100%;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area:main;
+    width: 100%;
+}
+
+footer {
+    grid-area: footer;
+}
+
+a {
+    text-decoration: none;
+    color: #00ad2d;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: #444;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+section {
+    padding: 30px 0;
+}
+
+
+/*General Classes Styles*/
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2em;
+}
+
+@media (min-width:768px){
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width:767px){
+    .desktop-only {
+        display: none;
+    }
+}
+
+
+

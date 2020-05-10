@@ -1,0 +1,16 @@
+@import "../section/hero-banner.css";
+@import "../components/share-buttons.css";
+@import "../section/featured-post.css";
+@import "../section/recent-travels.css";
+@import "../section/travel-gallery.css";
+@import "../section/sub-form.css";
+
+.main-home-page section:nth-child(even) {
+    background: aliceblue;
+}
+
+header.home-page {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+}

@@ -1,0 +1,18 @@
+.author-card{
+    padding: 1.2em;
+    text-align: center;
+}
+
+.author-image img{
+    border-radius: 50%;
+}
+
+.author-card .share-buttons {
+    position: relative;
+    margin-top: 1.2em;
+}
+
+.author-desc {
+    color: #00748f;
+    margin: 1.2em 0;
+}

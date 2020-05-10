@@ -1,0 +1,34 @@
+@import "../section/article.css";
+@import "../components/share-buttons.css";
+@import "../components/aside.css";
+@import "../components/author-card.css";
+@import "../components/other-posts.css";
+
+body {
+    background-color: aliceblue;
+}
+
+main {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "aside";
+    grid-gap: 1.2em;
+    margin: 1.2em 0;
+}
+
+main .main {
+    grid-area: main;
+    background-color: #fff;
+    padding: 1.2em;
+}
+
+main .aside {
+    grid-area: aside;
+}
+
+@media (min-width:768px) {
+    main {  
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "main aside";
+    }
+}
