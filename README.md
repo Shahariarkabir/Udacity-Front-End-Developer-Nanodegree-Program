@@ -1,8 +1,9 @@
-# UDACITY NANODEGREE PROGRAM0 - Front End Web Developer
+# UDACITY NANODEGREE PROGRAM - FRONT END WEB DEVELOPER
 
 [Program Link](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011)
 
-#Front End Web Developer
+# Front End Web Developer
+
 Learn how to build high quality websites and dynamic applications to create stunning user experiences for the web.
 
 The goal of the Front End Web Developer Nanodegree program is to equip learners with the unique skills they need to build and develop a variety of websites and applications. Graduates of this Nanodegree program will be able to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI (User Interface) applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript. Students will also build competency automating application build and deployment using Webpack and improving offline performance of websites using Service Worker.
